@@ -1,4 +1,4 @@
-header {
+.myHeader {
   text-align: center;
   font-family: courier;
   font-size: 17px;
@@ -9,7 +9,12 @@ header {
   background-repeat: no-repeat;
 }
 
-main {
+.myShop {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.myMain {
 
   min-height: 100%;
   background-image: linear-gradient(to top right, white, gray);
@@ -23,4 +28,19 @@ main {
 body {
   background-image: url(../assignment/record.png);
   background-repeat: repeat;
+}
+
+.myListItems {
+  font-size: 17px;
+  font-style: italic;
+}
+
+.newImage {
+  /* border: 15px solid black; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
