@@ -1,17 +1,26 @@
+body {
+  background-image: url(../assignment/record.png);
+  background-repeat: repeat;
+}
+
 .myHeader {
   text-align: center;
   font-family: courier;
-  font-size: 17px;
+  font-size: 10px;
   color: white;
   min-height: 100%;
-  background-image: linear-gradient(to top right, red, black);
+  background-image: linear-gradient(to top right, #CC5500, black);
   background-size: cover;
   background-repeat: no-repeat;
+  border: 10px solid black;
+  margin-bottom: 65px;
 }
 
 .myShop {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
+  text-shadow: 2px 2px 8px #000000;
+  text-decoration: underline;
 }
 
 .myMain {
@@ -23,11 +32,7 @@
   font-family: monospace;
   font-size: 15px;
   padding: 1em;
-}
-
-body {
-  background-image: url(../assignment/record.png);
-  background-repeat: repeat;
+  border: 5px solid black;
 }
 
 .myListItems {
@@ -36,11 +41,11 @@ body {
 }
 
 .newImage {
-  /* border: 15px solid black; */
   display: block;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  padding-top: 50px;
+  padding: 50px;
   padding-bottom: 50px;
 }
